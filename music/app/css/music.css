@@ -1,0 +1,59 @@
+.music-player {
+  background-color: #393939;
+  padding: 10px;
+  margin: 10px;
+  width: 600px;
+  border-radius: 10px;
+}
+.music-player .music-content {
+  position: relative;
+  padding-left: 110px;
+  height: 80px;
+}
+.music-player .music-content .music-pic {
+  background: #ff9900;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: -40px;
+  left: -50px;
+  border-radius: 50%;
+  background-size: 300px;
+}
+.music-player .music-content .music-control .top-control {
+  height: 40px;
+}
+.music-player .music-content .music-control .top-control .title {
+  color: #ff5a09;
+  font-size: 20px;
+  font-weight: 900;
+  color: #ffffff;
+}
+.music-player .music-content .music-control .bottom-control {
+  height: 40px;
+}
+.music-player .music-content .music-control button {
+  background: #6e6e6e;
+  border: #6e6e6e;
+  color: #ff9900;
+  border-radius: 5px;
+  padding: 3px 9px;
+  font-weight: 700;
+}
+.music-player .music-content .music-control .loader {
+  position: relative;
+  left: -34px;
+}
+.seekBase {
+  position: absolute;
+  height: 10px;
+  width: 100%;
+}
+.seekLoad {
+  height: 10px;
+  width: 0;
+  background-color: #ff5a09;
+}
+li {
+  cursor: pointer;
+}

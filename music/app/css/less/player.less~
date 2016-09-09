@@ -1,0 +1,72 @@
+@import "variables.less";
+.music-player {
+
+  background-color: @color1;
+  padding: 10px;
+  margin: 10px;
+  width: 600px;
+  border-radius: 10px;
+
+  .music-content {
+    position: relative;
+    padding-left: 110px;
+    height: 80px;
+
+    .music-pic {
+      background: @color4;
+      height: 150px;
+      width: 150px;
+      position: absolute;
+      top: -40px;
+      left: -50px;
+      border-radius: 50%;
+      background-size: 300px;
+      z-index: 100;
+    }
+
+    .music-control {
+      .top-control {
+        height: 40px;
+        .title {
+          color: @color2;
+          font-size: 20px;
+          font-weight: 900;
+          color: @color6;
+        }
+      }
+
+      .bottom-control {
+        height: 40px
+      }
+
+      button {
+        background: @color5;
+        border: @color5;
+        color: @color4;
+        border-radius: 5px;
+        padding: 3px 9px;
+        font-weight: 700;
+      }
+
+      .loader {
+        position: relative;
+        left: -34px;
+      }
+    }
+  }
+}
+
+.seekBase {
+  position: absolute;
+  height: 10px;
+  width: 100%;
+}
+.seekLoad {
+  height: 10px;
+  width: 0;
+  background-color: @color2;
+}
+
+li {
+	cursor: pointer;
+}

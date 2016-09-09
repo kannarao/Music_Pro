@@ -1,0 +1,6 @@
+@import "variables.less";
+
+.music-player {
+
+  background-color: @color1;
+}
